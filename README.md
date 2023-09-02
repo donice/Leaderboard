@@ -152,7 +152,7 @@ Example:
 
 ## 👥 Author <a name="author"></a>
 
-👤 **Alejandro Maggioni**
+👤 **Donice Ubaru**
 
 - GitHub: [@githubhandle](https://github.com/donice/)
 - Twitter: [@twitterhandle](https://twitter.com/drdonice)
