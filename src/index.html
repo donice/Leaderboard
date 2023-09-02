@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <title>Leaderboard by Alejandro Maggioni</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Leaderboard</h1>
+  </header>
+
+  <main id="section"> 
+
+    <div id="primary">
+      <div id="primary-high">
+        <h2>Recent scores</h2>
+        <button id="refresh">Refresh</button>
+      </div>
+      <div id="primary-low">
+        <ul>
+          <li>Name 100</li>
+          <li>Name 200</li>
+          <li>Name 300</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="secondary">
+      <form action="" method="post" id="form">
+        <h2>Add your score</h2>
+        <input type="text" placeholder="Your name" id="name-player" minlength=3>
+        <input type="text" placeholder="Your score" id="score-player" minlength=3>
+        <button id="add-user" type="submit">Submit</button>
+      </form>
+    </div>
+
+  </main>
+
+  <footer>
+    <article class="footer-content">@Copyright 2023</article>
+  </footer>
+
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
